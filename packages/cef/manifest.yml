@@ -22,6 +22,8 @@ policy_templates:
             title: Dataset name
             description: >
               Set the name for your dataset. Changing the dataset will send the data to a different index. You can't use `-` in the name of a dataset and only valid characters for [Elasticsearch index names](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html).
+
+            type: text
       - title: 'Collect CEF application logs (input: udp)'
         description: 'Collecting application logs from CEF instances (input: udp)'
         type: udp
@@ -31,6 +33,8 @@ policy_templates:
             title: Dataset name
             description: >
               Set the name for your dataset. Changing the dataset will send the data to a different index. You can't use `-` in the name of a dataset and only valid characters for [Elasticsearch index names](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html).
+
+            type: text
       - title: 'Collect CEF application logs (input: tcp)'
         description: 'Collecting application logs from CEF instances (input: tcp)'
         type: tcp
@@ -40,6 +44,8 @@ policy_templates:
             title: Dataset name
             description: >
               Set the name for your dataset. Changing the dataset will send the data to a different index. You can't use `-` in the name of a dataset and only valid characters for [Elasticsearch index names](https://www.elastic.co/guide/en/elasticsearch/reference/current/docs-index_.html).
+
+            type: text
 type: integration
 owner:
   github: elastic/security-external-integrations
